@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "es2020",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler", // Cambiado a "bundler"
+    "allowImportingTsExtensions": true, // Mantenido
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true, // Asegúrate de que noEmit esté habilitado
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
